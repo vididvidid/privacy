@@ -18,7 +18,7 @@ interface PrivacyPolicy {
 // Add new policies here in the future. The key (e.g., "searchit") will be used in the URL.
 const policies: Record<string, PrivacyPolicy> = {
   searchit: {
-    title: "Privacy Policy for Searchit Extension",
+    title: "Privacy Policy for SearchIt (Select To Search)",
     effectiveDate: "September 14, 2025",
     sections: [
       {
